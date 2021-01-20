@@ -97,7 +97,7 @@ jmv::linReg(
     ##    women        1.526593    0.6550535   
     ##  ──────────────────────────────────────
 
-![](img/unnamed-chunk-2-1.png)<!-- -->![](img/unnamed-chunk-2-2.png)<!-- -->![](img/unnamed-chunk-2-3.png)<!-- -->![](img/unnamed-chunk-2-4.png)<!-- -->![](img/unnamed-chunk-2-5.png)<!-- -->
+![](img/regression-jmv-1.png)<!-- -->![](img/regression-jmv-2.png)<!-- -->![](img/regression-jmv-3.png)<!-- -->![](img/regression-jmv-4.png)<!-- -->![](img/regression-jmv-5.png)<!-- -->
 
 ## base-R?
 

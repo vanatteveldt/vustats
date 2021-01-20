@@ -49,7 +49,7 @@ This gives data on a number of occupations: years of education, dollar income, p
    
 Note: generated from jamovi, only changed data to Prestige
     
-```{r}
+```{r regression-jmv}
 library(jmv)
 jmv::linReg(
   data = Prestige,
