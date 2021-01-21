@@ -4,4 +4,4 @@ Overview of options / decisions for conducting and reporting on common statistic
 
 # Analyses
 
- + [regression](https://htmlpreview.github.io/?https://github.com/vanatteveldt/vustats/blob/main/regression.html) ([source](regression.md))
+ + [regression](https://htmlpreview.github.io/?https://github.com/vanatteveldt/vustats/blob/main/analyses/regression.html) ([source](analyses/regression.md))
