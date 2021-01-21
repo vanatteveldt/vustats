@@ -422,13 +422,75 @@ summary {
 <p>We will use the <a href="https://www.rdocumentation.org/packages/car/versions/2.1-6/topics/Prestige">Prestige</a> data set:</p>
 <pre class="r"><code>data(&#39;Prestige&#39;, package=&#39;carData&#39;)
 head(Prestige)</code></pre>
-<pre><code>##                     education income women prestige census type
-## gov.administrators      13.11  12351 11.16     68.8   1113 prof
-## general.managers        12.26  25879  4.02     69.1   1130 prof
-## accountants             12.77   9271 15.70     63.4   1171 prof
-## purchasing.officers     11.42   8865  9.11     56.8   1175 prof
-## chemists                14.62   8403 11.68     73.5   2111 prof
-## physicists              15.64  11030  5.13     77.6   2113 prof</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">education</th>
+<th align="right">income</th>
+<th align="right">women</th>
+<th align="right">prestige</th>
+<th align="right">census</th>
+<th align="left">type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">gov.administrators</td>
+<td align="right">13.11</td>
+<td align="right">12351</td>
+<td align="right">11.16</td>
+<td align="right">68.8</td>
+<td align="right">1113</td>
+<td align="left">prof</td>
+</tr>
+<tr class="even">
+<td align="left">general.managers</td>
+<td align="right">12.26</td>
+<td align="right">25879</td>
+<td align="right">4.02</td>
+<td align="right">69.1</td>
+<td align="right">1130</td>
+<td align="left">prof</td>
+</tr>
+<tr class="odd">
+<td align="left">accountants</td>
+<td align="right">12.77</td>
+<td align="right">9271</td>
+<td align="right">15.70</td>
+<td align="right">63.4</td>
+<td align="right">1171</td>
+<td align="left">prof</td>
+</tr>
+<tr class="even">
+<td align="left">purchasing.officers</td>
+<td align="right">11.42</td>
+<td align="right">8865</td>
+<td align="right">9.11</td>
+<td align="right">56.8</td>
+<td align="right">1175</td>
+<td align="left">prof</td>
+</tr>
+<tr class="odd">
+<td align="left">chemists</td>
+<td align="right">14.62</td>
+<td align="right">8403</td>
+<td align="right">11.68</td>
+<td align="right">73.5</td>
+<td align="right">2111</td>
+<td align="left">prof</td>
+</tr>
+<tr class="even">
+<td align="left">physicists</td>
+<td align="right">15.64</td>
+<td align="right">11030</td>
+<td align="right">5.13</td>
+<td align="right">77.6</td>
+<td align="right">2113</td>
+<td align="left">prof</td>
+</tr>
+</tbody>
+</table>
 <p>This gives data on a number of occupations: years of education, dollar income, percentage female, Pineo-Porter prestige score, cencus code, and type (blue, white, professional). We wish to model prestige from income, education, and gender distribution.</p>
 </div>
 <div id="desired-output" class="section level3">
